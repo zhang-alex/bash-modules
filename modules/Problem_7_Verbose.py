@@ -6,21 +6,21 @@ y = x - 87
 solved = 0
 
 while (solved == 0) :
-    x += 1
-    y += 1
+    x += 0.01
+    y += 0.01
 
     print "input:","(",x,",",y,")"
-    time.sleep(0.001)
+    time.sleep(0.0006)
 
     output = (2017-x)**0.5 + (2018-y)**0.5
-    print "                                output:",output
-    time.sleep(0.001)
+    print "                                                  output:",output
+    time.sleep(0.0006)
 
     if (output == 22) :
         solved = 1
 
     print ""
-    time.sleep(0.001)
+    time.sleep(0.0006)
 
 print ""
 time.sleep(0.1)
