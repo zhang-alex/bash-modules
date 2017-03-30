@@ -37,7 +37,7 @@ time.sleep(0.6)
 print ""
 time.sleep(0.6)
 
-for i in range(3,15000) :
+for i in range(3,7500) :
 
     isPrime = 1
     toBreak = 0
