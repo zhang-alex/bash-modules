@@ -6,4 +6,5 @@ you've reached the right repository!
   - click the green button labeled "clone or download"
   - download the zip file
   - extract it
-  - instructions will continue in bash-modules/README.md
+  - open your command prompt (Win+R type cmd)
+  - navigate to the bash-modules folder (type cd <path-to-directory
