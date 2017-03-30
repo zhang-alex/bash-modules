@@ -37,7 +37,7 @@ time.sleep(0.8)
 print ""
 time.sleep(0.8)
 
-for i in range(3,2000) :
+for i in range(3,1000) :
 
     isPrime = 1
     toBreak = 0
@@ -68,7 +68,7 @@ time.sleep(0.8)
 print ""
 time.sleep(0.8)
 
-print "listing primes from 1 to 2000;"
+print "listing primes from 1 to 1000;"
 time.sleep(2)
 
 for i in range(len(primes)) :
@@ -96,7 +96,7 @@ for i in range(len(primes)) :
     print ""
     print "testing prime", i+1, "out of", len(primes) + 1
     time.sleep(0.2)
-    print "current prime", current_prime
+    print "current prime:", current_prime
     time.sleep(0.2)
 
     output = 2017**(current_prime-1) + current_prime**3

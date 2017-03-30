@@ -20,6 +20,15 @@ print ""
 time.sleep(0.6)
 print ""
 time.sleep(0.6)
+print "PLEASE USE CAUTION WHEN EXECUTING THIS PROGRAM"
+time.sleep(0.6)
+print "THE VALUES USED ARE INCOMPREHENSIBLY LARGE AND WILL BLOW YOUR MIND"
+print ""
+time.sleep(0.6)
+print ""
+time.sleep(0.6)
+print ""
+time.sleep(0.6)
 print "Problem 1:"
 time.sleep(0.6)
 print ""
@@ -37,7 +46,7 @@ time.sleep(0.6)
 print ""
 time.sleep(0.6)
 
-for i in range(3,7500) :
+for i in range(3,5000) :
 
     isPrime = 1
     toBreak = 0
@@ -68,7 +77,7 @@ time.sleep(0.6)
 print ""
 time.sleep(0.6)
 
-print "listing primes from 1 to 7500;"
+print "listing primes from 1 to 5000;"
 time.sleep(2)
 
 for i in range(len(primes)) :
@@ -91,12 +100,15 @@ num_of_primes = 0
 working_primes = []
 
 for i in range(len(primes)) :
+
+    now = time.clock()
+
     current_prime = primes[len(primes)-i-1]
     print ""
     print ""
     print "testing prime", i+1, "out of", len(primes) + 1
     time.sleep(0.12)
-    print "current prime", current_prime
+    print "current prime:", current_prime
     time.sleep(0.12)
 
     output = 2017**(current_prime-1) + current_prime**3
@@ -118,6 +130,7 @@ for i in range(len(primes)) :
     else :
         print "prime does not work..."
         print ""
+        print "estimated time until completetion:", (time.clock() - now)*(len(primes) - i + 1)/15, "seconds"
         print "-------------------------------------------------------"
         time.sleep(0.4)
 print ""
