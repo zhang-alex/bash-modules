@@ -46,14 +46,14 @@ time.sleep(0.6)
 print ""
 time.sleep(0.6)
 
-for i in range(3,5000) :
+for i in range(3,25000) :
 
     isPrime = 1
     toBreak = 0
 
     for j in range(2,int(math.ceil(i**0.5))+1) :
 
-        time.sleep(6/i**1.6)
+        time.sleep(30/i**1.6)
 
         if (i % j == 0) :
             print i, "is composite because",j,'divides',i
@@ -77,7 +77,7 @@ time.sleep(0.6)
 print ""
 time.sleep(0.6)
 
-print "listing primes from 1 to 5000;"
+print "listing primes from 1 to 25000;"
 time.sleep(2)
 
 for i in range(len(primes)) :
@@ -132,7 +132,7 @@ for i in range(len(primes)) :
         print ""
         print "estimated time until completetion:", (time.clock() - now)*(len(primes) - i + 1)/15, "seconds"
         print "-------------------------------------------------------"
-        time.sleep(0.4)
+        time.sleep(0.01)
 print ""
 time.sleep(0.6)
 print ""
