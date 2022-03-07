@@ -1,5 +1,5 @@
 # bash-modules
-you've reached the right repository!
+you've reached the right repository! these are a collection of python scripts I wrote to brute force solutions to math problems for a previously administered international-level mathematics competition. 
 
 # Instructions:
 
